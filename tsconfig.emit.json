@@ -1,0 +1,14 @@
+{
+	"extends": "./tsconfig.base.json",
+	"compilerOptions": {
+		/* -------------------------------------------------------------------- Emit -------------------------------------------------------------------- */
+		"declaration": true,
+
+		"declarationMap": true,
+
+		// "inlineSourceMap": true,
+		// "inlineSources": true,
+
+		"sourceMap": true
+	}
+}
