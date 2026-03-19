@@ -1,0 +1,23 @@
+{
+	"name": "vite8-issue-browser",
+	"version": "0.0.1",
+	"private": true,
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"format": "prettier . --write",
+		"clean": "clear && rm -rf ./dist/ && mkdir ./dist/",
+		"lint": "prettier . --check && DEBUG=eslint:cli-engine eslint . --quiet",
+		"build": "tsc && vite build"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {},
+	"devDependencies": {
+		"@tailwindcss/vite": "^4.2.2",
+		"tailwindcss": "^4.2.2",
+		"vite": "^7.3.1"
+	}
+}

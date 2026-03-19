@@ -1,0 +1,24 @@
+{
+	"name": "vite8-issue",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"format": "prettier . --write",
+		"lint": "prettier . --check && DEBUG=eslint:cli-engine eslint . --quiet"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@eslint/js": "^10.0.1",
+		"esbuild": "^0.27.4",
+		"eslint": "^10.0.3",
+		"eslint-config-prettier": "^10.1.8",
+		"npm-run-all": "^4.1.5",
+		"prettier": "^3.8.1",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.9.3",
+		"typescript-eslint": "^8.57.1"
+	}
+}

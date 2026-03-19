@@ -1,0 +1,10 @@
+.git/
+**/dist/
+**/node_modules/
+**/tsc/
+
+.dockerignore
+.gitignore
+
+Dockerfile*
+README.md

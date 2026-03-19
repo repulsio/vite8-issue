@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+		/* --------------------------------------------------------------- Type Checking ---------------------------------------------------------------- */
+		"noUncheckedIndexedAccess": true,
+
+		"strict": true,
+
+		/* ------------------------------------------------------------------ Modules ------------------------------------------------------------------- */
+		// "allowUmdGlobalAccess": true,
+
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+
+		/* ------------------------------------------------------------ Interop Constraints ------------------------------------------------------------- */
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+
+		"verbatimModuleSyntax": true,
+
+		/* ---------------------------------------------------------- Language and Environment ---------------------------------------------------------- */
+		// "lib": ["ESNext", "DOM", "WebWorker", "DOM.Iterable"],
+
+		"moduleDetection": "force",
+
+		"target": "ESNext",
+
+		/* ---------------------------------------------------------------- Completeness ---------------------------------------------------------------- */
+		"skipLibCheck": true
+	}
+}
